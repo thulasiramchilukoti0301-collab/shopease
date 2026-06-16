@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 import ProductCard from '../components/ProductCard';
 import Footer from '../components/Footer';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://shopease-backend-60vn.onrender.com';
 
 function Products() {
   const [products, setProducts] = useState([]);

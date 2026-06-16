@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://shopease-backend-60vn.onrender.com';
 
 function Checkout() {
   const { cart, cartTotal, clearCart } = useCart();

@@ -5,7 +5,7 @@ import { useAuth } from '../context/AuthContext';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://shopease-backend-60vn.onrender.com';
 
 function ProductCard({ product, wishlist, onWishlistUpdate }) {
   const { addToCart } = useCart();

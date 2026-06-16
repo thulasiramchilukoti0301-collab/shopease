@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useAuth } from '../context/AuthContext';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://shopease-backend-60vn.onrender.com';
 
 function Profile() {
   const { user, updateUser } = useAuth();

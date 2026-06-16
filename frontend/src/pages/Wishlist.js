@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ProductCard from '../components/ProductCard';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://shopease-backend-60vn.onrender.com';
 
 function Wishlist() {
   const [wishlistProducts, setWishlistProducts] = useState([]);
