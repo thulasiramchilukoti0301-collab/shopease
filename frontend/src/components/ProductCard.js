@@ -13,6 +13,10 @@ function ProductCard({ product, wishlist, onWishlistUpdate }) {
 
   const handleAddToCart = (e) => {
     e.preventDefault();
+    if (!user) {
+      toast.error('Please login to add items to cart! 🔒');
+      return;
+    }
     addToCart(product);
     toast.success(`${product.name} added to cart! 🛒`);
   };
